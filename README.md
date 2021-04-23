@@ -22,4 +22,4 @@ npm start
 * Don't forget to add it to your discord server
 
 ## Sample Demo snap
-![Screenshot](.png)
+![Screenshot](https://github.com/hackedak/discord/blob/main/githubsnaps/demoSnap.PNG)

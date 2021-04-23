@@ -1,0 +1,22 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "a discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "discordjs",
+    "nodejs"
+  ],
+  "author": "hackedAk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-html-to-image": "^3.1.0",
+    "nodemon": "^2.0.7",
+    "svg-png-converter": "0.0.9"
+  }
+}

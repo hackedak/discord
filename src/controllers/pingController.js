@@ -7,6 +7,3 @@ function PingMe(message) {
 }
 
 module.exports = PingMe;
-
-
-// ODMyNTUyNDY0Njc5MDQzMDc0.YHlc5w.Tsc8AjfVQxId9nvImwzHFXRJ7DQ

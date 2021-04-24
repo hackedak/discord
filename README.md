@@ -11,7 +11,7 @@
 ## Test it (local test server)
 * First create an account in discord developers website
 * Create an application
-* Get bot token
+* Get bot token and add it to the env variable BOT_TOKEN
 * Add it to the code
 * Use the following commands
 ```

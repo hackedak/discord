@@ -1,7 +1,7 @@
 # Discord Bot 
 [![Status](https://img.shields.io/badge/Status-under_development-blue.svg)](https://shields.io/)
 ### A discord bot for geeting messages and assigning roles.
-
+#### I made this bot for my personal use. You can change some of the code if you're interested to use in your server. I'll add the details for that soon.
 ## Completed tasks
 * Welcome greetings
 

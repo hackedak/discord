@@ -1,6 +1,9 @@
+
 const Discord = require('discord.js');
 const Ping = require('./src/controllers/pingController');
 const WelcomeEmbed = require('./src/controllers/welcomeController')
+const ShowDailyFeeds = require('./src/controllers/dailyFeeds')
+
 
 require('dotenv').config()
 const client = new Discord.Client();
@@ -13,6 +16,7 @@ client.on('ready', () => {
 
 // ping check from discord client  
 client.on('message', message => Ping(message));
+client.on('message', message => ShowDailyFeeds(message));
   
 // welcome meeting on adding member to guild
 client.on('guildMemberAdd', member => WelcomeEmbed(member));

@@ -1,10 +1,10 @@
-const exampleEmbed = require("./ping-template");
-
+const pingTemplateGenerator = require("./ping-template");
+const Message = require('../../middlewares/messageExtract')
 class Ping{
     static Ping(message){
-        if (message.content === 'ping') {
+        if (Message(message.content) === 'ping') {
             // Send "pong" to the same channel
-            message.channel.send({ embed: exampleEmbed });
+            message.channel.send({ embed: pingTemplateGenerator() });
           }
     }
 }

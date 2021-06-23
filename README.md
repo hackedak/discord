@@ -1,9 +1,10 @@
 # Discord Bot 
 [![Status](https://img.shields.io/badge/Status-under_development-blue.svg)](https://shields.io/)
-### A discord bot for geeting messages and assigning roles.
-#### I made this bot for my personal use. You can change some of the code if you're interested to use in your server. I'll add the details for that soon.
+### A discord bot for doing various tasks.
+#### I made this bot for my personal use on my discord server.
 ## Completed tasks
 * Welcome greetings
+* Daily news from portswigger
 
 ## Requirements(local test)
 * Node
@@ -19,7 +20,3 @@ npm install
 
 npm start
 ```
-* Don't forget to add it to your discord server
-
-## Sample Demo snap
-![Screenshot](https://github.com/hackedak/discord/blob/main/githubsnaps/demoSnap.PNG)
